@@ -12,6 +12,7 @@ const IndexPage = ({ data, location }) => {
      <div className="container containerTop containerUnderConstruction">
       <div className="containerUnderConstruction__inner">
         <div>
+          <img src="/images/yoda_logo.png" className="mainlogo" />
           <h1>OPENING<br />SOON</h1>
         </div>
         <div>

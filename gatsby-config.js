@@ -1,13 +1,25 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "YODA WEAR",
-    description: "YODA WEAR"
+    title: "YODAWEAR",
+    description: "YODAWEAR"
   },
   plugins: [
     "gatsby-plugin-sass",
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `YODAWEAR`,
+        short_name: `YODAWEAR`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#fff`,
+        display: `standalone`,
+        icon: './src/images/favicon.png',
+      },
+    },
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
