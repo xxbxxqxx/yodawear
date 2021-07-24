@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 //import Img from "gatsby-image";
 import SEO from "../components/seo"
+import imgLogo from "../images/yoda_logo.png"　//追加
 
 const IndexPage = ({ data, location }) => {
 
@@ -12,7 +13,7 @@ const IndexPage = ({ data, location }) => {
      <div className="container containerTop containerUnderConstruction">
       <div className="containerUnderConstruction__inner">
         <div>
-          <img src="./images/yoda_logo.png" className="mainlogo" />
+          <img src={imgLogo} className="mainlogo" />
           <h1>OPENING<br />SOON</h1>
         </div>
         <div>
