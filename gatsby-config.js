@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
     title: "YODA WEAR",
+    description: "YODA WEAR"
   },
   plugins: [
     "gatsby-plugin-sass",
@@ -33,5 +34,14 @@ module.exports = {
       },
       __key: "pages",
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Lato\:300,400`
+        ],
+        display: 'swap'
+      }
+    }
   ],
 };
