@@ -18,14 +18,14 @@ const IndexPage = ({ data, location }) => {
   };
 
   const slides = [
-  {"imgpath":"2-1.2021_Yoda_Clothes_177.jpg"},
-  {"imgpath":"3-1.2021_Yoda_Clothes_202.jpg"},
-  {"imgpath":"3-2_2021_Yoda_Clothes_209.jpg"},
-  {"imgpath":"4_2021_Yoda_Clothes_196.jpg"},
-  {"imgpath":"7_2021_Yoda_Clothes_248.jpg"},
-  {"imgpath":"6_2021_Yoda_Clothes_184.jpg"},
-  {"imgpath":"5_2021_Yoda_Clothes_229.jpg"},
-  {"imgpath":"1-2.2021_Yoda_Clothes_214.jpg"},
+  {"imgpath":"2-1.2021_Yoda_Clothes_177.jpg", "order":"1"},
+  {"imgpath":"3-1.2021_Yoda_Clothes_202.jpg", "order":"2"},
+  {"imgpath":"3-2_2021_Yoda_Clothes_209.jpg", "order":"3"},
+  {"imgpath":"4_2021_Yoda_Clothes_196.jpg", "order":"4"},
+  {"imgpath":"7_2021_Yoda_Clothes_248.jpg", "order":"5"},
+  {"imgpath":"6_2021_Yoda_Clothes_184.jpg", "order":"6"},
+  {"imgpath":"5_2021_Yoda_Clothes_229.jpg", "order":"7"},
+  {"imgpath":"1-2.2021_Yoda_Clothes_214.jpg", "order":"8"},
   ]
 
   return (
@@ -40,6 +40,7 @@ const IndexPage = ({ data, location }) => {
               src={"/slide/" + n.imgpath}
               className="slide_img"
             />
+            <div className="main-img-order">{n.order}</div>
           </div>
           )}
         </div>

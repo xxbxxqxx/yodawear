@@ -1513,10 +1513,14 @@ $paddingGeneral: 20px;
 			.main-img-container{
 				padding-bottom: 80px;
 				text-align: center;
+				position: relative;
 				img{
 					max-width: 100%;
 					max-height: 99vh;
 					object-fit: cover;
+				}
+				.main-img-order{
+					text-align: right;
 				}
 			}
 		}
