@@ -1533,22 +1533,28 @@ $paddingGeneral: 20px;
 			height: 100vh;
 			p{
 				font-size: 0.95rem;
-				line-height: 1.45rem;
+				line-height: 1.25rem;
 				font-weight: bold;
 			}
 			.contactBox{
 				margin-top: 25px;
 				p{
-					margin: 0;
+					margin: 0 0 6px;
+					letter-spacing: 0.50px;
 				}
 			}
 			.descriptionBox{
 				position: absolute;
 				right: 0;
-				bottom: $paddingGeneral;
+				//bottom: $paddingGeneral;
+				bottom: 80px;
+				letter-spacing: 0.50px;
 			}
 		}
 	}
 }
 
+img.mainLogo{
+	width: 200px;
+}
 
