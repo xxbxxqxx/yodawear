@@ -36,7 +36,7 @@ const IndexPage = ({ data, location }) => {
               className="slide_img"
               alt="yodawear products"
             />
-            <div className="main-img-order">{n.order}</div>
+            {/*<div className="main-img-order">{n.order}</div>*/}
           </div>
           )}
         </div>
