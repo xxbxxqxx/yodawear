@@ -1,11 +1,7 @@
 import React from "react"
-//import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
-//import Img from "gatsby-image";
 import Seo from "../components/seo"
 import imgLogo from "../images/yoda_logo.png"
-//import { StaticImage } from "gatsby-plugin-image"
-//import Slider from "react-slick";
 
 const IndexPage = ({ data, location }) => {
 
@@ -49,15 +45,17 @@ const IndexPage = ({ data, location }) => {
             40210 Düsseldorf</p>
           </div>
           <div className="descriptionBox">
-            <p>YODA is a fashion brand based in<br />Düsseldorf, Germany.</p>
             <p>
-              Steeped in a global mindset<br />
-              the brand relised on traditional<br />
-              Japanese crafts and materials<br />present
-              in all of its pieces,<br />
-              Yoda's collections also<br />
-              incorporate contemporary<br />
-              European designs to create<br />
+              YODA is a fashion brand based in <br className="sp_hide" />
+              Düsseldorf, Germany.</p>
+            <p>
+              Steeped in a global mindset <br className="sp_hide" />
+              the brand relised on traditional <br className="sp_hide" />
+              Japanese crafts and materials <br className="sp_hide" />
+              present in all of its pieces, <br className="sp_hide" />
+              Yoda's collections also <br className="sp_hide" />
+              incorporate contemporary <br className="sp_hide" />
+              European designs to create <br className="sp_hide" />
               a truly international fashion</p>
           </div>
         </div>
