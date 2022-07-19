@@ -1558,3 +1558,36 @@ img.mainLogo{
 	width: 200px;
 }
 
+
+@media screen and (max-width: 896px){
+	.main-wrapper{
+		padding: 2px; 
+	}
+	img.mainLogo{
+		width: 120px;
+	}
+	.sp_hide{
+		display: none;
+	}
+	.descriptionBox{
+		width: 160px;
+		font-size: 0.9rem;
+		letter-spacing: 0.20px;
+		bottom: 20px;
+	}
+	.main-wrapper .main-container .main-outline-wrapper{
+		right: 10px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
