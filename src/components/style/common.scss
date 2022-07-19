@@ -1569,14 +1569,14 @@ img.mainLogo{
 	.sp_hide{
 		display: none;
 	}
-	.descriptionBox{
-		width: 160px;
-		font-size: 0.9rem;
-		letter-spacing: 0.20px;
-		bottom: 20px;
-	}
 	.main-wrapper .main-container .main-outline-wrapper{
 		right: 10px;
+		.descriptionBox{
+			width: 160px;
+			font-size: 0.9rem;
+			letter-spacing: 0.20px;
+			bottom: 40px;
+		}
 	}
 }
 
